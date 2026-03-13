@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# Node / React
+node_modules/
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Do NOT ignore important files:
+# - package.json
+# - requirements.txt
+# - src/ (frontend source)
+# - backend/ (Django project)
+# - ml/ (ML scripts)
+# - predictions/ (Django app)
